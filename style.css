@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+::selection {
+    background: #7231ba;
+}
+.number{
+    display: inline;
+}
+.sec1{
+    background-color: #6721B5;
+    width: auto;
+    height: 700px;
+}
+.img{
+    width: 500px;
+    height: 670px;
+    margin-left: 20px;
+    margin-top: 30PX;
+    float: left;
+
+}
+.form{
+    padding-top: 80px;
+    margin-left: 650px;
+}
+.lets{
+    color: #EF6B33;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20PX;
+    
+}
+.h2{
+    color:white;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.para{
+    color: white;
+    
+}
+.ta{
+    width: 525px;
+    height: 100PX;
+    margin: 10px 10px 10px 0 ;
+    border: none;
+    border-radius: 11px;
+    background-color: #7231ba;
+    padding: 18px 30px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+.ta::placeholder{
+    color: rgb(194, 192, 192);
+}
+.ta:focus{
+    outline: none;
+}
+
+.lien:hover{
+    color: #EF6B33;
+} 
+.inp{
+    background-color: #7231ba;
+    width: 250px;
+    height: 50px;
+    padding: 18px 30px;
+    border-radius: 11px;
+    margin: 15px 15px 10px 0 ;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.inp::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.inp:focus{
+    outline: none;
+}
+.inp::placeholder{
+    color: rgb(194, 192, 192);
+}
+.submit{
+    width: 190px;
+    height: 68PX;
+    border-radius: 11px;
+    border: none;
+    background-color: #ff7425;
+    color: white;
+    padding: 21px 36px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.call{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 20px;
+}
+.phone{
+    color:#ff7425;
+    font-size: 25px;
+}
+.number{
+
+    color: antiquewhite;
+    font-size: 30px;
+}
+.foot1{
+    background-color: #1D1C2D;
+    height: 250px;
+    padding: 20px;
+}
+
+.foot1 .f1 .first{
+    margin-left: 150px;
+}
+.lien{
+    text-decoration: none;
+    color: white;
+    
+    font-size: 25px;
+}
+.first{
+    color: white;
+    list-style-type: none;
+    margin-bottom: 10PX;
+    font-size: 20px;
+    display: inline;
+    
+}
+.f1{
+    display: inline;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 60PX;
+    margin-right: 180px;
+    text-decoration: none;
+}
+.logo{
+    width: 130px;
+    height: 50px;
+    margin-top: 50PX;
+    margin-right: 100px;
+}
+.foot2{
+    display: flex;
+    background-color: #1D1C2D;
+    justify-content: space-evenly;
+    color: white;
+    height: 350PX;
+    padding: 20PX;
+}
+.foot2 input{
+    width: 290px;
+    height: 60px;
+    padding: 25px 30px;
+    border-radius: 11px;
+    margin: 15px 15px 3px 0 ;
+    border: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+.foot2 input:focus{
+    outline: none;
+}
+.foot2 .btn{
+    width: 180px;
+    height: 80PX;
+    border-radius: 11px;
+    border: none;
+    background-color: #6721B5;
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 35PX;
+    cursor: pointer;
+}
+.foot3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15PX;
+    background-color: #1D1C2D;
+    color: white;
+}
+.foot2 .footer2{
+    text-decoration: none;
+    color: white;
+}
+.foot3 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.about{
+    margin-right: 20px;
+}
+.contact{
+    margin-left: 20px;
+}
+.sub{
+    margin-left: -100PX;
+}
+.ser .f2 {
+    list-style-type: none;
+}
+.ser .f2 li {
+    padding: 10px 0 ;
+}
+.ser .f2 li a:hover{
+    color: #EF6B33;
+}
+.foot2 ul .smi{
+    display: inline-block;
+    background-color: rgb(37, 54, 90);
+    padding: 7px 15px;
+    margin: 3px 5px;
+    border-radius: 7px;
+}
+.foot2 ul .smi a{
+    color: white;
+}
